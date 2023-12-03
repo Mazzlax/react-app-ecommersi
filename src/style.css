@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=League+Spartan:wght@500&family=Merriweather&family=Montserrat:ital,wght@0,700;0,900;1,800;1,900&family=Moon+Dance&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.menu{
+    border-radius: 10px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ff6000;
+}
+
+.menuUl a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.cart {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff6000;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.cart a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+}
+.card{
+    width: 100%;
+    height: 420px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 2pz 2pz 2pz rgba(0,0,0,0.2);
+    border-radius:10px;
+}
+
+.card .info{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+.card span{
+    font-size: 1.71rem;
+    margin: 10px;
+    font-family:  monospace;
+}
+
+.btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 10px 15px;
+    background-color: #ff6000;
+    color: #fff;
+    border: none;
+    right: 0;
+    border-radius: 50%;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+.btn-secondary{
+    background-color: #55f007;
+}
+
+.cart-container{
+    background-color: #fff;
+    box-shadow: 0 0 010px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+    place-items: center;
+}
+
+.cart-products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+.cart-product{
+    padding: 10px;
+    display: grid;
+    width: 95%;
+    grid-template-columns: 3fr 1fr 1fr;
+    border-top: 1px solid #ccc;
+    place-items: center;
+
+}
+.cart-product img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-product span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.car-title-image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+}
+.car-title-image *{
+    padding: 0 10px;
+}
+
+
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.total-price{
+    border-top: 1px solid #ccc;
+}
