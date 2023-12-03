@@ -5,7 +5,7 @@ const Header = () => {
     const {products}=UserPro();
     return (
         <div className='menu' >
-            <Link to="/" className='logo' >CamalDoons</Link>
+            <Link to="/" className='logo' >CamalDoon</Link>
             <div className='menuUl'>
                 <Link to="/">Home</Link>
                 <Link to="/about">Abount</Link>
